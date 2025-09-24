@@ -12,4 +12,4 @@ class Produto(models.Model):
         return f'{self.nome} - R${self.preco}'
     
     def get_absolute_url(self):
-        return reverse('app:index', args=[self.pk])
+        return reverse('app:detalhe', args=[self.pk])
