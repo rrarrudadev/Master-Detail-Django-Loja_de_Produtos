@@ -8,10 +8,9 @@
 </head>
 <body class="bg-light">
 
-    <!-- ===== NAVBAR ===== -->
     <nav class="navbar navbar-dark bg-dark mb-4">
         <div class="container">
-            <a class="navbar-brand" href="{% url 'index' %}">🏪 Loja de Produtos</a>
+            <a class="navbar-brand" href="{% url 'app:index' %}">🏪 Loja de Produtos</a>
             <span class="navbar-text text-white">Detalhes</span>
         </div>
     </nav>
@@ -31,9 +30,8 @@
                     <p class="lead">{{ produto.descricao }}</p>
                     <h3 class="text-success fw-bold mb-4">R$ {{ produto.preco }}</h3>
 
-                    <!-- Botões de navegação -->
                     <div class="d-flex gap-3">
-                        <a href="{% url 'index' %}" class="btn btn-secondary">Voltar à Página Inicial</a>
+                        <a href="{% url 'app:index' %}" class="btn btn-secondary">Voltar à Página Inicial</a>
                     </div>
                 </div>
             </div>

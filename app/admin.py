@@ -3,5 +3,5 @@ from .models import Produto
 
 @admin.register(Produto)
 class ProdutoAdmin(admin.ModelAdmin):
-    list_display = ('id', 'nome', 'descricao', 'preco')
-    search_fields = ('nome', 'descricao')
+    list_display = ('id', 'nome', 'categoria', 'preco')
+    search_fields = ('nome', 'categoria')

@@ -8,13 +8,12 @@
 </head>
 <body class="bg-light">
 
-    <!-- ===== NAVBAR ===== -->
     <nav class="navbar navbar-dark bg-dark mb-4">
         <div class="container">
-            <a class="navbar-brand" href="{% url 'index' %}">🏪 Loja de Produtos</a>
+            <a class="navbar-brand" href="{% url 'app:index' %}">🏪 Loja de Produtos</a>
             <span class="navbar-text text-white">Vestuário</span>
         </div>
-    </nav>
+    </nav> 
 
     <div class="container">
         <h1 class="text-center mb-4">Produtos de Vestuário</h1>
@@ -34,10 +33,7 @@
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
                         <span class="fw-bold text-success">R$ {{ produto.preco }}</span>
-                        <!-- Link para detalhes -->
-                        <a href="{{ produto.get_absolute_url }}" class="btn btn-sm btn-outline-primary">
-                            Ver Detalhes
-                        </a>
+                        <a href="{{ produto.get_absolute_url }}" class="btn btn-sm btn-outline-primary">Ver Detalhes</a>
                     </div>
                 </div>
             </div>

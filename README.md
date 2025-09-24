@@ -1,5 +1,7 @@
 # Projeto Master-Detail Django - Loja de Produtos
 
+Alunos - Rafael Rocha Arruda & Lucas Leonardo Martins Farias
+
 Aplicação Django simples para listar e visualizar detalhes de produtos.
 
 ## Funcionalidades
@@ -22,4 +24,4 @@ Aplicação Django simples para listar e visualizar detalhes de produtos.
 ### python -m venv venv
 ### venv\Scripts\activate
 ### pip install -r requirements.txt
-### git clone https://github.com/rrarrudadev/Master-Detail-Django-Loja_de_Produtos.git
+### git clone https://github.com/rrarrudadev/Master-Detail-Django-Loja_de_Produto.git
